@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #c89e94;
+}
+
+.card {
+  width: 350px;
+  height: 550px;
+}
+
+.card-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 350px;
+  background: rgb(255, 90, 61);
+}
+
+.card-image img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-body {
+  height: 200px;
+  background: rgb(255, 200, 185);
+}
+
+.card-body .s1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-body .s1 .details {
+  font-family: 'Courier New', 'Courier New', Courier, monospace;
+  margin: 25px 0px 0px 25px;
+}
+
+.card-body .s1 .details h4 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.card-body .s1 .details h6 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.card-body .s1 .price label {
+  margin: 28px 25px 0px 5px;
+  display: inline-block;
+  font-size: 19px;
+  color: rgb(255, 0, 76);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.card-body .s2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-body .s2 .number {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 30px 0px 0px 25px;
+}
+
+.card-body .s2 .number label {
+  margin-right: 5px;
+  padding: 4px;
+}
+
+.card-body .s2 .number label:nth-child(1) {
+  background: beige;
+}
+
+.card-body .s2 .number label:hover {
+  background: beige;
+}
+
+.card-body .s2 .color-options span {
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  margin: 30px 5px 0px 0px;
+  border-radius: 50%;
+}
+
+.card-body .s2 .color-options span:nth-child(1) {
+  background: rgb(174, 255, 244);
+}
+
+.card-body .s2 .color-options span:nth-child(2) {
+  background: rgb(249, 48, 48);
+}
+
+.card-body .s2 .color-options span:nth-child(1):hover {
+  border: 1px solid red;
+}
+
+.card-body .s2 .color-options span:nth-child(2):hover {
+  border: 1px solid white;
+}
+
+.card-body .s3 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.card-body .s3 button {
+  font-family: 'Courier New', Courier, monospace;
+  outline: none;
+  border: none;
+  padding: 6px 8px;
+  cursor: pointer;
+  background: #ffe8e1;
+}
